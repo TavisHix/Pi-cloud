@@ -174,8 +174,5 @@ public class dbHandler {
     {
     	delete();
     	printdb();
-//    	int x = 100;
-//    	x = validateLogin("Tavis", "hicks");
-//    	System.out.println(x);
     }
 }

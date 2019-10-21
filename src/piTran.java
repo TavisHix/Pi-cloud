@@ -76,9 +76,9 @@ public class piTran {
 		    
 		    //
 	 		//Directory where the users flder is created
-	 		//Note: Change when you remove your SSD
+	 		//Note: My location /home/pi/Desktop/fold
 	 		//
-		    String dir = "/home/pi/Desktop/fold";
+		    String dir = "";
 
 		    Session session = null;
 		    Channel channel = null;
@@ -110,10 +110,10 @@ public class piTran {
 	 		
 	 		 //
 	 		 //Directory where the users flder is created
-	 		 //Note: Change when you remove your SSD
+	 		 //Note: My location /home/pi/Desktop/fold
 	 		 //
 	 		
-	 		    String dir = "/home/pi/Desktop/fold/";
+	 		    String dir = "";
 	 		    dir.concat(user);
 	 		    dir = user;
 	 		    Session session = null;
