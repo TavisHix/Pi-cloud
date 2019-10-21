@@ -71,7 +71,7 @@ public class dbHandler {
     }  
     
     public static void printdb(){
-    	//BEING SELECT
+    	//BEGINING SELECT
     	
     	String url = "jdbc:sqlite:C://sqlite/Users.db";  
         String sql2 = "Select * from users";  
@@ -101,7 +101,7 @@ public class dbHandler {
         boolean userExist = false;
         boolean passwordExist = false;
         int correctLogin = 0;
-        //BEING SELECT
+        //BEGINING SELECT
         String search = "Select * from users where _name = '" + user + "'";  
         
         try{  
@@ -136,7 +136,7 @@ public class dbHandler {
         // SQLite connection string  
         String url = "jdbc:sqlite:C://sqlite/Users.db";  
         boolean passwordExist = false;
-        //BEING SELECT
+        //BEGINING SELECT
         String search = "Select * from users where _name = '" + user + "' and _password = '" + password + "'";  
         
         try{  
