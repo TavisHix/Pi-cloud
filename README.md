@@ -6,3 +6,9 @@ Needed Materials:
 1.Raspberry pi
 
 2.Storage Device
+
+libraries needed:
+ant-jsch.jar
+ant.jar
+jsch.jar
+sqlite-jdbc.jar
